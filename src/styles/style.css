@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'NorseBold';
+  src: url('../font/NorseBold-2Kge.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Norse';
+  src: url('../font/Norse-KaWl.otf');
+}
+
+body {
+  margin: 0;
+  background-color: #b4d7d8;
+}
+
+.app {
+  font-size: 4rem;
+  font-family: 'NorseBold';
+}
