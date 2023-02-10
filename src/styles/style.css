@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  --background-color: #dbe3e8;
+  --one: #b3b9bd;
+  --two: #8c9194;
+  --three: #676b6d;
+  --four: #454748;
+  --five: #252626;
 }
 @font-face {
   font-family: 'NorseBold';
@@ -13,10 +19,28 @@
 
 body {
   margin: 0;
-  background-color: #b4d7d8;
+  background-color: var(--background-color);
 }
 
 .app {
-  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'NorseBold';
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(6, 170px);
+  gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-size: 14px;
+}
+.card img {
+  height: 150px;
+  width: 150px;
 }
