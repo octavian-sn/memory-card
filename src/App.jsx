@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import items from './components/items';
 import Card from './components/Card';
 import Score from './components/Score';
+import Credits from './components/Credits';
 import uniqid from 'uniqid';
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
           <Card data={card} click={() => clickCard(card.id)} key={card.id} />
         ))}
       </div>
+      <Credits />
     </div>
   );
 }
