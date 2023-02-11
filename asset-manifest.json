@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.067bd343.css",
+    "main.js": "/memory-card/static/js/main.bad1db5b.js",
+    "static/media/yggdrasil.jpg": "/memory-card/static/media/yggdrasil.9bca4e791d85cc348c14.jpg",
+    "static/media/mjolnir.jpg": "/memory-card/static/media/mjolnir.f9847e7e4ebdcb5d9b04.jpg",
+    "static/media/hugin-munin.jpg": "/memory-card/static/media/hugin-munin.f7149f5e506ebf696bee.jpg",
+    "static/media/fenrir.jpg": "/memory-card/static/media/fenrir.a287f8d1f1179473547a.jpg",
+    "static/media/valknut.jpg": "/memory-card/static/media/valknut.1ce874f1c1233c104b95.jpg",
+    "static/media/aegishjalmr.jpg": "/memory-card/static/media/aegishjalmr.bbbc8b0e85c8aebd95c7.jpg",
+    "static/media/bear.jpg": "/memory-card/static/media/bear.62fcee5fd54bfff33b92.jpg",
+    "static/media/legged-horse.jpg": "/memory-card/static/media/legged-horse.b862bf3011b62044a0cd.jpg",
+    "static/media/longship.jpg": "/memory-card/static/media/longship.4859266a96fcb24d99d4.jpg",
+    "static/media/triquetra.jpg": "/memory-card/static/media/triquetra.229b37ebc28a16db20f7.jpg",
+    "static/media/vegvisir.jpg": "/memory-card/static/media/vegvisir.10690238e49590d67417.jpg",
+    "static/media/boar.jpg": "/memory-card/static/media/boar.add363a93f0f4d46b8eb.jpg",
+    "static/media/axe.jpg": "/memory-card/static/media/axe.77c85a67cbde632e98ba.jpg",
+    "static/media/dragon.jpg": "/memory-card/static/media/dragon.b5cbeb5e1b5076f0522d.jpg",
+    "static/media/troll-cross.jpg": "/memory-card/static/media/troll-cross.a0e03a40e8415a9f5fd0.jpg",
+    "static/media/web-of-wyrd.jpg": "/memory-card/static/media/web-of-wyrd.72dc9c6997ff5f616e18.jpg",
+    "static/media/Norse-KaWl.otf": "/memory-card/static/media/Norse-KaWl.b8b97d868ac533cacf58.otf",
+    "static/media/NorseBold-2Kge.otf": "/memory-card/static/media/NorseBold-2Kge.5efe60ef5042faec1224.otf",
+    "static/media/triskele.jpg": "/memory-card/static/media/triskele.313a7e364f446cc3db79.jpg",
+    "static/media/gungnir.jpg": "/memory-card/static/media/gungnir.ff97dbbc6ff9af86e127.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.067bd343.css.map": "/memory-card/static/css/main.067bd343.css.map",
+    "main.bad1db5b.js.map": "/memory-card/static/js/main.bad1db5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.067bd343.css",
+    "static/js/main.bad1db5b.js"
+  ]
+}
