@@ -29,9 +29,14 @@ function App() {
       setCards((prevCards) => {
         return prevCards.map((card) => ({ ...card, clicked: 0 }));
       });
-      score.current > score.best && setScore({ ...score, best: score.current });
-      setScore({ ...score, current: 0 });
+      setScore({
+        current: 0,
+        best: score.current > score.best ? score.current : score.best,
+      });
+      return;
     }
+    if (cards.some((card) => card.clicked !== 0))
+      setScore({ ...score, current: score.current + 1 });
   }, [cards]);
 
   const clickCard = (id) => {
@@ -40,7 +45,6 @@ function App() {
         return card.id === id ? { ...card, clicked: card.clicked + 1 } : card;
       })
     );
-    setScore({ ...score, current: score.current + 1 });
     shuffleCards();
   };
 

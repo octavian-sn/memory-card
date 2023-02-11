@@ -36,8 +36,11 @@ body {
   margin-bottom: 18px;
 }
 .score p:first-child {
-  margin-right: 220px;
+  margin-right: 180px;
   font-family: 'Norse';
+}
+.score p:last-child {
+  min-width: 230px;
 }
 .cards {
   display: grid;
@@ -72,6 +75,7 @@ body {
   font-size: 1.6rem;
   margin-bottom: 3px;
   letter-spacing: 2px;
+  text-align: center;
 }
 .card p:nth-child(3) {
   font-family: 'Norse';
